@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 244 244 241; --bg2: 235 235 230; --card: 255 255 255; --ink: 22 24 29; --mute: 90 95 107;
+  --line: 220 220 213;
+  --acc: 217 108 140;   /* rose poudré soutenu #D96C8C */
+  --acc2: 244 180 195;  /* rose poudré clair  #F4B4C3 */
+  --accink: 22 24 29;   /* texte sombre sur fond rose */
+}
+.dark {
+  --bg: 12 13 18; --bg2: 19 21 28; --card: 26 29 38; --ink: 238 240 245; --mute: 161 167 180;
+  --line: 43 48 64;
+  --acc: 244 184 200;   /* rose poudré #F4B8C8 */
+  --acc2: 250 210 220;  /* rose très clair #FAD2DC */
+  --accink: 12 13 18;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-bg font-sans text-ink antialiased; transition: background-color .4s, color .4s; overflow-x: hidden; }
+  :focus-visible { @apply outline outline-[3px] outline-offset-2 outline-acc rounded-md; }
+  ::selection { background: rgb(var(--acc) / .3); }
+}
+@layer components {
+  .wrap { @apply mx-auto w-full max-w-6xl px-5; }
+  .section { @apply py-24 md:py-32; }
+  .h2 { @apply mb-10 font-display text-3xl font-bold tracking-tight md:text-5xl; }
+  .btn { @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-xl border-[1.5px] border-ink px-6 py-2.5 font-semibold transition hover:bg-ink hover:text-bg; }
+  .btn-p { @apply border-acc bg-acc text-accink hover:bg-acc hover:text-accink hover:shadow-[0_12px_32px_-10px_rgb(var(--acc))]; }
+  .chip { @apply inline-block whitespace-nowrap rounded-full border border-line px-3 py-0.5 text-xs font-semibold text-mute; }
+  .chip-ok { @apply border-acc text-acc; }
+  .tag { @apply rounded-lg bg-bg2 px-2.5 py-1 font-mono text-[13px] transition-colors hover:bg-acc hover:text-accink; }
+  .spot::before { content: ""; position: absolute; inset: 0; pointer-events: none; opacity: 0; transition: opacity .3s;
+    background: radial-gradient(280px circle at var(--mx, 50%) var(--my, 0%), rgb(var(--acc) / .16), transparent 70%); }
+  .spot:hover::before { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .animate-marquee { animation: none; } }

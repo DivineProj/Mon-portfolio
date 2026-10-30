@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img"><rect width="640" height="360" fill="#FBE6EC"/><circle cx="560" cy="60" r="90" fill="#F4B4C3" opacity=".55"/><circle cx="70" cy="330" r="110" fill="#F4B4C3" opacity=".4"/>
+<rect x="130" y="55" width="380" height="250" rx="16" fill="#fff" stroke="#3B2430" stroke-width="4"/>
+<path d="M130 71a16 16 0 0 1 16-16h348a16 16 0 0 1 16 16v26H130z" fill="#3B2430"/>
+<circle cx="154" cy="76" r="6" fill="#F4B4C3"/><circle cx="174" cy="76" r="6" fill="#D96C8C"/><circle cx="194" cy="76" r="6" fill="#fff"/>
+<rect x="156" y="120" width="170" height="16" rx="8" fill="#D96C8C"/>
+<rect x="156" y="148" width="120" height="10" rx="5" fill="#F4B4C3"/>
+<rect x="156" y="168" width="150" height="10" rx="5" fill="#F4B4C3"/>
+<rect x="156" y="204" width="86" height="30" rx="10" fill="#3B2430"/>
+<rect x="350" y="120" width="132" height="114" rx="12" fill="#F4B4C3"/>
+<path d="M350 214l40-44 34 34 22-22 36 36v16a12 12 0 0 1-12 12H362a12 12 0 0 1-12-12z" fill="#D96C8C"/>
+<circle cx="448" cy="152" r="12" fill="#fff"/>
+<rect x="156" y="256" width="326" height="28" rx="8" fill="#FBE6EC"/>
+<text x="170" y="275" font-family="monospace" font-size="15" font-weight="700" fill="#3B2430">&lt;/&gt; HTML · CSS · JS · Laravel</text>
+</svg>

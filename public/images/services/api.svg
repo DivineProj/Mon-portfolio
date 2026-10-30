@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360"><rect width="640" height="360" fill="#FBE6EC"/><circle cx="560" cy="60" r="90" fill="#F4B4C3" opacity=".55"/><circle cx="70" cy="330" r="110" fill="#F4B4C3" opacity=".4"/>
+<rect x="70" y="120" width="130" height="120" rx="16" fill="#fff" stroke="#3B2430" stroke-width="4"/>
+<text x="135" y="190" text-anchor="middle" font-family="monospace" font-size="30" font-weight="700" fill="#3B2430">App</text>
+<rect x="440" y="120" width="130" height="120" rx="16" fill="#3B2430"/>
+<text x="505" y="190" text-anchor="middle" font-family="monospace" font-size="30" font-weight="700" fill="#F4B4C3">Data</text>
+<rect x="250" y="140" width="140" height="80" rx="40" fill="#D96C8C"/>
+<text x="320" y="190" text-anchor="middle" font-family="monospace" font-size="26" font-weight="700" fill="#fff">API</text>
+<path d="M200 165h50M390 165h50" stroke="#3B2430" stroke-width="5" stroke-linecap="round"/>
+<path d="M235 155l15 10-15 10M405 195l-15-10 15-10" fill="none" stroke="#3B2430" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M200 205h50M390 205h50" stroke="#F4B4C3" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 12"/>
+<rect x="250" y="260" width="140" height="30" rx="8" fill="#fff" stroke="#3B2430" stroke-width="3"/>
+<text x="320" y="281" text-anchor="middle" font-family="monospace" font-size="16" font-weight="700" fill="#3B2430">{ "ok": true }</text>
+</svg>
